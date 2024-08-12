@@ -1,0 +1,19 @@
+{
+  "template": "https://github.com/TencentBlueKing/bk-resource.git",
+  "commit": "54a3f1387d973f56b78c10a6689d0a5b505dd39c",
+  "checkout": "main",
+  "context": {
+    "cookiecutter": {
+      "app_id": "qwe123",
+      "project_name": "test_pro",
+      "python_version": "3.8.19",
+      "_copy_without_render": [
+        "static",
+        "templates",
+        "api"
+      ],
+      "_template": "https://github.com/TencentBlueKing/bk-resource.git"
+    }
+  },
+  "directory": "template"
+}
